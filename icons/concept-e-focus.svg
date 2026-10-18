@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">SpaceTally · 聚焦窗口</title>
+  <desc id="desc">蓝色底色，四个取景角围住一块被定位的橙色空间。</desc>
+  <defs>
+    <linearGradient id="bg" x1="22" y1="18" x2="228" y2="236" gradientUnits="userSpaceOnUse"><stop stop-color="#5074F1"/><stop offset="1" stop-color="#294AC7"/></linearGradient>
+    <linearGradient id="focus" x1="100" y1="98" x2="156" y2="158" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD796"/><stop offset="1" stop-color="#FFAD76"/></linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)"/>
+  <path d="M102 55H75C64 55 55 64 55 75V102M154 55H181C192 55 201 64 201 75V102M55 154V181C55 192 64 201 75 201H102M201 154V181C201 192 192 201 181 201H154" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="98" y="98" width="60" height="60" rx="18" fill="url(#focus)"/>
+</svg>

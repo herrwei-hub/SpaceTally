@@ -1,0 +1,27 @@
+.shell{display:grid;grid-template-columns:228px minmax(0,1fr);min-height:100vh}
+.sidebar{height:100vh;position:sticky;top:0;background:#fff;border-right:1px solid #e4e9f1;padding:25px 14px;display:flex;flex-direction:column;min-width:0}
+.sidebar-brand{display:flex;align-items:center;gap:11px;padding:0 13px;font-size:20px;letter-spacing:-.6px;color:#1b2941}
+.sidebar-brand .logo{flex:none}
+.sidebar-group-label{padding:0 13px;margin:37px 0 10px;color:#77869b;font-size:11px;font-weight:800;letter-spacing:1.3px}
+.sidebar-nav{display:grid;gap:4px}
+.nav-item{width:100%;min-height:44px;padding:10px 13px;border-radius:10px;display:flex;align-items:center;gap:11px;font-size:13px;font-weight:700;color:#69798f;white-space:nowrap}
+.nav-item.active{background:#e9edff;color:#5267e9}
+.nav-item.future{cursor:default}
+.nav-icon{display:inline-grid;place-items:center;width:19px;flex:none;font-size:19px;line-height:1}
+.soon{margin-left:auto;font-size:10px;font-weight:600;color:#9ca9ba;letter-spacing:0;white-space:nowrap}
+.sidebar-footer{border-top:1px solid #e4e9f1;margin-top:auto;padding:20px 13px 3px;display:grid;gap:5px;font-size:12px;color:#68788d;line-height:1.5}
+.sidebar-footer strong{font-weight:700;color:#46566b}
+.workspace{min-width:0}
+.topbar{height:74px;padding:0 38px;background:transparent;border-bottom:1px solid #e4e9f1;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.breadcrumb{font-size:12px;color:#68788d;white-space:nowrap}
+.breadcrumb span{margin:0 8px;color:#a7b2c0}
+.topbar-actions{display:flex;align-items:center;gap:11px}
+.topbar .stage{margin-left:0}
+.topbar button.secondary{background:#fff}
+.workspace main{max-width:1430px;margin:0 auto;padding:32px 38px 70px}
+.workspace .heading h2{font-size:28px;margin:5px 0 8px}
+.workspace .picker{margin-top:26px}
+.workspace .result-head{margin-top:34px}
+.workspace .table{min-width:0}
+@media(max-width:1050px){.shell{grid-template-columns:200px minmax(0,1fr)}.sidebar{padding-left:10px;padding-right:10px}.topbar{padding:0 24px}.workspace main{padding:30px 24px 60px}.soon{font-size:9px}}
+@media(max-width:790px){.shell{grid-template-columns:64px minmax(0,1fr)}.sidebar{padding:19px 8px}.sidebar-brand{padding:0 6px}.sidebar-brand strong,.sidebar-group-label,.sidebar-footer,.nav-item.future .soon{display:none}.sidebar-nav{margin-top:38px}.nav-item{justify-content:center;padding:10px;font-size:0}.nav-icon{font-size:22px}.topbar{padding:0 17px}.workspace main{padding:25px 17px 50px}.topbar .stage{display:none}}

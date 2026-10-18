@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">SpaceTally · 立体空间</title>
+  <desc id="desc">青蓝色底色，一枚由三面构成的立体空间块。</desc>
+  <defs>
+    <linearGradient id="bg" x1="18" y1="15" x2="238" y2="239" gradientUnits="userSpaceOnUse"><stop stop-color="#167D9F"/><stop offset="1" stop-color="#18468A"/></linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)"/>
+  <path d="M128 48L204 89L128 131L52 89Z" fill="#FFFFFF"/>
+  <path d="M52 89L128 131V209L52 166Z" fill="#93DDEA"/>
+  <path d="M204 89L128 131V209L204 166Z" fill="#D6F8F5"/>
+  <path d="M128 131V209" fill="none" stroke="#1F76A3" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+</svg>

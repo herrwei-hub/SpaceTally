@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">SpaceTally · 路径 S</title>
+  <desc id="desc">深靛蓝底色，一条明亮的弯折路径构成字母 S。</desc>
+  <defs>
+    <linearGradient id="bg" x1="19" y1="18" x2="237" y2="238" gradientUnits="userSpaceOnUse"><stop stop-color="#253D9B"/><stop offset="1" stop-color="#111F62"/></linearGradient>
+    <linearGradient id="line" x1="60" y1="63" x2="199" y2="195" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#D7E2FF"/></linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)"/>
+  <path d="M188 65H98C74 65 61 78 61 98C61 118 75 128 99 128H157C181 128 195 139 195 159C195 179 181 192 157 192H66" fill="none" stroke="url(#line)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="188" cy="65" r="14" fill="#57E2D3"/>
+  <circle cx="66" cy="192" r="14" fill="#57E2D3"/>
+</svg>

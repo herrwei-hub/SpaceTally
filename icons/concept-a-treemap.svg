@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">SpaceTally · 空间分块</title>
+  <desc id="desc">蓝紫色圆角方形中排列四个大小不同的空间区块。</desc>
+  <defs>
+    <linearGradient id="background" x1="24" y1="20" x2="228" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6679F4"/>
+      <stop offset="1" stop-color="#4056D8"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#background)"/>
+  <rect x="48" y="48" width="98" height="84" rx="17" fill="#FFFFFF"/>
+  <rect x="157" y="48" width="51" height="84" rx="15" fill="#B7C3FF"/>
+  <rect x="48" y="143" width="68" height="65" rx="16" fill="#B7C3FF"/>
+  <rect x="127" y="143" width="81" height="65" rx="16" fill="#FFFFFF"/>
+</svg>

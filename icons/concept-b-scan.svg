@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">SpaceTally · 扫描聚焦</title>
+  <desc id="desc">紫蓝色圆角方形中的扫描圆环与聚焦方块。</desc>
+  <defs>
+    <linearGradient id="background" x1="12" y1="12" x2="238" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7368EE"/>
+      <stop offset="1" stop-color="#4238AB"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#background)"/>
+  <circle cx="128" cy="128" r="73" fill="none" stroke="#B9B5F7" stroke-width="22"/>
+  <path d="M128 55a73 73 0 0 1 73 73" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round"/>
+  <path d="M128 201a73 73 0 0 1-73-73" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round"/>
+  <rect x="105" y="105" width="46" height="46" rx="11" fill="#FFFFFF"/>
+</svg>
